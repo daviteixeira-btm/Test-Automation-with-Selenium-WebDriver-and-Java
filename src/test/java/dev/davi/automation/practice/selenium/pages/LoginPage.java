@@ -19,7 +19,6 @@ public class LoginPage extends BasePage {
 			super.click(submitBtnLocator);
 			super.actionMoveToElementPerform(notSaveLoginInfo);
 			super.actionMoveToElementClickPerform(notSaveLoginInfo);
-			//super.click(notSaveLoginInfo);
 			super.click(notActivateNotifications);
 		} else {
 			System.out.println("user textbox was not present");

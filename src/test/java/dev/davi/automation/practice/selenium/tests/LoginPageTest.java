@@ -22,7 +22,7 @@ class LoginPageTest {
 
 	@AfterEach
 	void tearDown() throws Exception {
-		//this.loginPage.quitWebDriver();
+		this.loginPage.quitWebDriver();
 	}
 
 	@Test

@@ -15,7 +15,7 @@ public abstract class BasePage {
 	public BasePage() {
 		System.getProperty("webdriver.chrome.driver", "drivers/chromedriver");
 		driver = new ChromeDriver();
-		//driver.manage().window().maximize();
+		driver.manage().window().maximize();
 	}
 	
 	public void visit(String url) {
