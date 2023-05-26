@@ -99,3 +99,162 @@
 - [ ] Defeitos normalmente se agrupam
 - [ ] Ausência de erros é ilusão
 
+> Q11 Na pirâmide de software, quais seriam os testes mais caros a se executarem?
+
+- [ ] Testes unitários
+- [ ] Testes de carga
+- [ ] Testes de função
+- [ ] Testes de integração
+- [X] Testes end to end
+
+> Q12 Qual evolução na Engenharia de Software contribuiu para diversas mudanças no papel e atividades de Testes de Software?
+
+- [ ] Processo Unificado
+- [ ] Arquiteturas de software distribuído
+- [ ] Scrum
+- [ ] Kanban
+- [X] Advento das metodologias de desenvolvimento de software ágil
+
+> Q13 Complete: "Quando temos um erro sendo apresentado no sistema e o mesmo sempre trava nesse cenário (crash) temos um(a)..."
+
+- [ ] Comportamento não esperado
+- [ ] Validação não realizada
+- [X] Falha
+- [ ] Defeito
+- [ ] Engano
+
+> Q14 Qual unidade do sistema um teste unitário valida?
+
+- [ ] A menor unidade, no caso uma funcionalidade
+- [ ] A menor unidade, no casoum teste com uma API
+- [ ] Um teste de integração de dados
+- [ ] A menor unidade, no caso um requisito de negócio
+- [X] A menor unidade, uma função ou método
+
+> Q15 Complete: "Quando cometemos um engano e interpretamos incorretamente uma regra de negócio e desenvolvemos uma funcionalidade de forma diferente da esperada, temos um(a)..."
+
+- [ ] Desvio de comportamento
+- [ ] Comportamento alternativo
+- [ ] Validação incorreta
+- [X] Defeito
+- [ ] Engano
+
+> Q16 Escolha a alternativa que melhor define a justificativa pela qual testar software é tão importante:
+
+- [ ] É importante para revelar defeitos, aumentar a confiança do time de desenvolvimento na entrega, assegurar a qualidade e por ser uma obrigação do processo de software
+- [ ] É importante para revelar e eliminar qualquer possibilidade de defeitos, aumentar a confiança/satisfação do cliente com o softwaRe e assegurar a qualidade
+- [ ] É importante para revelar e eliminar qualquer possibilidade de defeitos, aumentar a confiança do time de desenvolvimento e assegurar a qualidade
+- [X] É importante para revelar defeitos, aumentar a confiança/satisfação do cliente com o software e assegurar a qualidade
+
+> Q17 Complete: "Quando temos um bug em um sistema de relatórios e na apresentação de dados um comportamento inconsistente surge, temos um(a)..."
+
+- [X] Erro
+- [ ] Engano
+- [ ] Defeito
+- [ ] Comportamento não especificado
+- [ ] Verificação incorreta
+
+> Q18 Qual técnica de Testes realizamos sem conhecimento prévio do código e apenas das features do sistema?
+
+- [ ] Teste de negócio
+- [ ] Caixa cinza
+- [ ] Caixa branca
+- [X] Caixa preta
+- [ ] Teste de feature
+
+> Q19 Qual técnica de Testes realizamos um processo pelo qual temos total conhecimento do código fonte do sistema?
+
+- [ ] Caixa cinza
+- [ ] Testes de código
+- [ ] Testes de programação
+- [ ] Testes unitários
+- [X] Caixa branca
+
+> Q20 Quando queremos testar os limites da aplicação encontrando até que ponto a mesma está preparada para responder estamos fazendo testes de ...?
+
+- [ ] Carga
+- [ ] Desempenho
+- [ ] Performance
+- [X] Stress
+- [ ] Aceitação
+
+> Q21 Qual a permissão que o WebDriverWait nos oferece?
+
+- [ ] Permite que você execute ações de interface do usuário em seu teste
+- [ ] Permite a integração entre o script de teste e o repectivo browser
+- [X] Permite que o código possa interromper a execução do programa ou congele o encadeamento, até que a condição que passamos seja resolvida
+- [ ] Permite a criação de repositórios de objetos com elementos contidos numa página Web
+- [ ] Permite a identificação de elementos em uma página.
+
+> Q22 De forma objetiva, o que seria o POM?
+
+- [ ] Page Object Model (ou POM) recebe as instruções do navegador e as executa em seguida, oferecendo uma resposta via HTTP
+- [ ] Page Object Model (ou POM) cria um repositório com testes unitários capaz de realizar a verificação das funções dentro do código.
+- [X] Page Object Model (ou POM) nos permite criar um repositório de objetos com elementos contidos numa página Web
+- [ ] Page Object Model (ou POM) nos permite testar os códigos e os elmentos contidos em uma página Web
+- [ ] Page Object Model (ou POM) é uma ferramenta de código aberto e multiplataforma, usado para testar aplicações Web pelo browser de forma automatizada
+
+> Q23 Qual o propósito dos Testes de Aceitação?
+
+- [ ] Os testes de aceitação verificam os erros nos códigos para que a unidade não falhe, ele deve encontrar a causa dos problemas e tratar os erros o mais rápido possível
+- [ ] Objetiva auxiliar na execução dos frameworks que executam operações lógicas de negócio na camada do servidor.
+- [X] Verificar se o softare está pronto e pode ser utilizado pelos usuários, para desempenhar funções e tarefas para os quais o software foi construído
+- [ ] Verificar uma parte especifica do código a nível de função, assegurando o bom funcionamento do código
+- [ ] Os testes de aceitação têm o propósito de executar os testes iniciais, antes da implementação do software
+
+> Q24 "A __________ consiste em linguagens como Java, Ruby, Python, C# e etc. Após os casos de teste acionados, o código do Selenium será convertido para o formato json."
+
+- [ ] Selenium Actions
+- [ ] WebElement
+- [X] Selenium Client Library
+- [ ] Expected Conditions
+- [ ] Locators
+
+> Q25 Sobre a interação com o WebElement, marque a alternativa que aponta três comandos mais utilizados:
+
+- [ ] Submit Keys, Clear e Remove
+- [X] Click, Send Keys e Clear
+- [ ] Private Key, Click e Remove
+- [ ] Explict Wait, Send Keys e WebDrive
+- [ ] Remove, Clear e Explict Wait
+
+> Q26 Sobre o Selenium WebDriver é CORRETO afirmar:
+
+- [ ] O Selenium WebDriver é uma ferramenta de automação de testes Web que pode ser integradaapenas com soluções desenvolvidas em Java
+- [ ] O Selenium WebDriver usa as instruções dentro do método para a realização dos testes possíveis de execução/verificação
+- [X] O Selenium WebDriver usa o própio driver do navegador para a automatização
+- [ ] O Selenium WebDriver indicará todos os passos que serão executados antes da execução dos testes em si, como preparação
+- [ ] Nenhuma das alternativas
+
+> Q27 Sobre o Selenium Actions, suas ações são executadas por quem?
+
+- [ ] Select
+- [X] API Advanced User Interactions, que consiste na classe Selenium Action para realizar essas interações
+- [ ] Json (JavaScript Object Notation)
+- [ ] POM (Page Object Model)
+- [ ] DOM (Document Object Model)
+
+> Q28 Sobre os Testes Unitários, é INCORRETO que:
+
+- [X] Os Testes Unitários dependem de alguns processos ou sistemas externos (Banco de dados, rede, console e etc.)
+- [ ] Representa o ato de validar dados válidos e inválidos via I/O sendo aplicado por desenvolvedores ou analistas de testes
+- [ ] Esses testes geralmente são escritos por desenvolvedores quando trabalham no código para assegurar que a função especifica está executando como esperado
+- [ ] Os Testes Unitários podem ser usados como documentação do própio sistema
+- [ ] São testes que verificam se uma parte especifica do código constumeuramente a nível de função está funcionando corretamente 
+
+> Q29 Qual a desvantagem de utilizar o localizador By.tagName("tag name")?
+
+- [ ] Pode ocorrer problemas ao percorrer os elementos do DOM
+- [ ] Não há um sistema de segurança ao utilizar esta tag
+- [ ] É necessário conhecimento em XPath
+- [X] Pode haver vários elementos com o mesmo nome da tag
+- [ ] Nem todos os navegadores utilizam esta tag
+
+> Q30 A Classe Select só funciona para alguns elementos que seriam:
+
+- [ ] DOM e POM
+- [ ] Client Library e POM
+- [ ] DOM e option
+- [X] HTML select e option
+- [ ] HTML WebDrive e option
+
