@@ -1,5 +1,177 @@
 # Test-Automation-with-Selenium-WebDriver-and-Java
 
+# Fundamentos de Qualidade de Software
+
+Compreender fundamentos e normas da área de qualidade, assim como aprofundar atividades de um analista ou engenheiro de qualidade de software no mercado de trabalho. Introduzir níveis e tipos de teste e como estes se inserem no contexto da garantia da qualidade.
+
+## Percurso
+
+```
+Aula 01 - O que é qualidade de software? 
+Aula 02 - Gerenciamento de defeitos 
+Aula 03 - Introdução aos testes de software.
+```
+### O que é qualidade de software ?
+
+#### Objetivos
+
+1. Definindo qualidade
+2. Normas e padrões de qualidade
+3. Medindo a qualidade
+4 . Processos de gerenciamento de qualidade de software
+
+## Definindo qualidade
+
+### Definições na literatura
+
+- NBR/ISO 9000:2005: grau no qual um conjunto de características inerentes satisfaz a requisitos.
+- Peters (2002): “A qualidade de software é avaliada em termos de atributos de alto nível chamados fatores, que são medidos em relação a atributos de baixo nível, chamados critérios.”
+- Sanders (1994): “Um produto de software apresenta qualidade dependendo do grau de satisfação das necessidades dos clientes sob todos os aspectos do produto.”
+- Pressman: “Qualidade de software é a conformidade a requisitos funcionais e de desempenho que foram explicitamente declarados, a padrões de desenvolvimento claramente documentados, e a características implícitas que são esperadas de todo software desenvolvido por profissionais.”
+- ISO/IEC 25010:2011: “capacidade do produto de software de satisfazer necessidades declaradas e implícitas sob condições especificadas”
+- IEEE Standard (2014): “o grau em que um produto de software atende aos requisitos estabelecidos; no entanto a qualidade depende do grau em que esses requisitos representam com precisão as necessidades, desejos e expectativas das partes interessadas”.
+
+### Aspectos importantes:
+
+- Requisitos de software são a base para medir qualidade;
+- Padrões especificados definem conjunto de critérios de desenvolvimento;
+- Existem requisitos implícitos que não são mencionados que afetam diretamente a qualidade.
+
+### Percepções de qualidade (subjetiva)
+
+| | |
+|----------------------|----------------------------------------------------------------------------------------|
+| Visão transcendental | Qualidade é reconhecida através de experiência, mas sem uma definição ou metrificação. |
+| Visão do usuário | É personalizado de acordo com a necessidade do usuário. |
+| Visão de manufatura | Qualidade é relacionada com conformidade aos requerimentos. |
+| Visão de produto | Produto com boas propriedades internas metrificadas terá boas qualidades externas. |
+| Visão baseada em valor | Representa o “custo-benefício” na visão do cliente. |
+| | |
+
+## As normas e padrões de qualidade
+
+### O que são normas técnicas?
+
+Documentos publicados por organizações profissionais que objetivam padronizar determinadas atividades, processos, produtos, etc…
+
+Por que padronizar? é importante para minimizar os erros de comunicação entre a equipe, fazendo com que todos estejam na “mesma pagina”.
+
+- IEEE: “Institute of Electrical and Electronics Engineers”
+- ISO: “International Organization for Standardization”
+- IEC: “International Electrotechnical Commission”
+
+<table>
+  <thead>
+    <tr>
+      <th colspan='2'>Família ISO 9000</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>ISO 9000</td>
+      <td>Descreve fundamento de sistemas de gestão de qualidade e suas terminologias</td>
+    </tr>
+    <tr>
+      <td>ISO 9001</td>
+      <td>Especifica requisitos para sistema de gestão de qualidade</td>
+    </tr>
+    <tr>
+      <td>ISO 9004</td>
+      <td>Diretrizes que consideram eficácia e eficiência do sistema de gestão da qualidade</td>
+    </tr>
+    <tr>
+      <td>ISO 9126</td>
+      <td>Modelo de qualidade de produto de software</td>
+    </tr>
+    <tr>
+      <td>ISO 19011</td>
+      <td>Diretrizes sobre auditoria de sistemas de gestão de qualidade de software</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th colspan='2'>Normas para engenharia de software</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>ISO/IEC 14598</td>
+      <td>Processo de avaliação de produtos de software na visão do desenvolvedor, adquirente e avaliador</td>
+    </tr>
+    <tr>
+      <td>
+        ISO/IEC/IEEE 12207: 2017
+        ISO/IEC/IEEE 15288: 2015
+      </td>
+      <td>Processos de ciclo de vida de software</td>
+    </tr>
+    <tr>
+      <td>ISO 19011</td>
+      <td>Diretrizes sobre auditoria de sistemas de gestão da qualidade de software</td>
+    </tr>
+    <tr>
+      <td>IEEE 1012:2016</td>
+      <td>Verificação e validação para sistemas, software e hardware</td>
+    </tr>
+    <tr>
+      <td>IEEE 730: 2014</td>
+      <td>Requerimentos para planejamento, controle e execução de processos de garantia de qualidade de software</td>
+    </tr>
+    <tr>
+      <td>ISO/IEC/IEEE 15289: 2019</td>
+      <td>Foco no processo de gerenciamento de informação</td>
+    </tr>
+    <tr>
+      <td>ISO/IEC/IEEE 29119: 2013</td>
+      <td>Vocabulário, processo, documentação, modelos e técnicas para teste</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th colspan='3'>Família SQuaRE</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan='2'>ISO/IEC 25000-25099 (System and Software Quality Requirements and Evaluation)</td>
+      <td>Substitui ISO/IEC 9126</td>
+    </tr>
+    <tr>
+      <td>Quality Requirements Division 2503n</td>
+      <td>
+          Quality Model Division 2501n <br/>
+          Quality Management Division 2500n <br/>
+          Quality Mensuarement Division 2502n
+      </td>
+      <td>Quality Evaluation Division 2504n</td>
+    </tr>
+  </tbody>
+</table>
+
+- Requerimentos de qualidade
+- Modelo de Qualidade
+- Gerenciamento de qualidade
+- Metrificação de qualidade
+- Avaliação de qualidade
+
+Os padrões não são obrigatórios, porém são um bom norte para quem deseja ter um sistema sólido de processos, de regras e normas aos projetos.
+
+Lembre-se que a qualidade do produto de software começa no início do processo, lá na parte dos requisitos.
+
+## Medindo a qualidade
+
+Stakeholders - (requisitos) -> Processo de Software (Processo de desenvolvimento e Produto de software (padrões)) -> Software com qualidade.
+
+Qualidade não é teste, você testar um software não garante que o produto será excelente.
+
+# Exercícios
+
 > Q1 - Assinale a alternativa INCORRETA quanto às técnicas de teste:
 
 - [ ] As técnicas baseadas em experiência são efetivas para identificação de defeitos apesar de ser difícil avaliar a cobertura eobter métricas.
